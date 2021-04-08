@@ -7,16 +7,38 @@ body
     color: white;
 }
 
+.container
+{
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
 .sakums
 {
-    text-decoration: none;
+    font-size: 1.1em;
+    text-decoration: underline;
     color: white;
     margin: 1em;
 }
 
 table
 {
-    width: 400px;
+    width: 25em;
+    margin: 0 auto;
+}
+
+.table-div
+{
+    padding-top: 2.2em;
+    padding-bottom: 2em;
+}
+
+.uzturs
+{
+    font-size: 1.4em;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: .6em;
 }
 
 table, td
@@ -27,7 +49,7 @@ table, td
 
 img
 {
-    width: 25em;
+    width: 24em;
     box-shadow: 2px 2px 8px black;
     margin-right: 5em;
     margin-top: 4em;
@@ -57,14 +79,19 @@ h1
 {
     font-size: 3em;
     text-align: center;
-    padding-bottom: .8em;
+    padding-bottom: .6em;
     margin: 0 auto;
     width: 100%;
 }
 
 .skaidrojums
 {
-    padding-bottom: 5em;
+    padding-bottom: 4em;
     margin: 0 auto;
     text-align: center;
+}
+
+.container .sakums
+{
+
 }
